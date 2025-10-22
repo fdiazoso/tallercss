@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--archivos vinculados -->
+	
+	<link rel="icon" href="../img/eth.png" type="image/png" sizes="16x16">
+	<!--etiquetas de seo -->
+	<meta name="author" content="Nahim diaz osorio">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="description" content="practicas de html css ja">
+
+    <link href="../css/styles.css" rel="stylesheet"></link>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Special+Gothic:wght@400..700&display=swap" rel="stylesheet">
+	<title>Practica de CSS</title>
+</head>
+
+<body>
+    <nav>
+
+		<a href="index.html">Pagina de inicio</a>
+
+		<a href="./practica_Texto.html">Practica de etiqueta de Texto</a>
+
+		<a href="https://fdiazoso.my.canva.site/">Practica de Canva</a>
+
+		<a href="https://sites.google.com/fiec.espol.edu.ec/diazosoriofernando/">Practica de Google Sites</a>
+
+		<a href="./practica_IA.html">Practica de etiqueta de Inteligencia Artificial.
+
+		<a href="./practica_Listas.html">Practica de etiqueta de Listas</a>
+
+		<a href="./practica_Imagenes.html">Practica de etiqueta de Imagenes</a>
+
+		<a href="./practica_Audio.html">Practica de etiqueta de Audio</a>
+
+		<a href="./practica_Video.html">Practica de etiqueta de Video</a>
+
+		<a href="./practica_Tablas.html">Practica de etiqueta de Tablas</a>
+
+		<a href="./practica_CSS.html">Practica de etiqueta de CSS</a>
+
+		<a href="./practica_CopyPaste.html">Practica de etiqueta de Copy Paste</a>
+
+		<a href="./practica_JS.html">Practica de etiqueta de JavaScript</a>
+
+		<a href="./practica_Formulario.html">Practica de etiqueta de Formulario</a>
+
+		<a href="./practica_Formulario2.html">Practica de etiqueta de Formulario2</a>
+
+		<a href="./practica_MenuVertical.html">Practica de etiqueta de Menu Vertical</a>
+
+		<a href="./practica_MenuHorizontal.html">Practica de etiqueta de Menu Horizontal</a>
+
+		<a href="./practica_Crazy.html">Practica de Crazy</a>
+
+    </nav>
+
+   <!-- Práctica de CSS con estructura organizada -->
+<main>
+    <h1 class="titulo">Práctica de CSS</h1>
+
+    <!-- Modelos de inclusión de CSS -->
+    <div class="comportamiento">
+        <p class="caja">
+            Modelo Caja 1:<br>
+            CSS en línea - estilo dentro del elemento<br>
+            <code>&lt;p style="color:blue"&gt;Texto con estilo embebido&lt;/p&gt;</code>
+        </p>
+
+        <p class="caja">
+            Modelo Caja 2:<br>
+            CSS interno - definido en la cabecera con la etiqueta <code>&lt;style&gt;</code><br>
+            <code>&lt;style&gt; h1 { color: gray; } &lt;/style&gt;</code>
+        </p>
+
+        <p class="caja">
+            Modelo Caja 3:<br>
+            CSS externo - hoja de estilos vinculada<br>
+            <code>&lt;link href="../css/styles.css" rel="stylesheet"&gt;</code>
+        </p>
+    </div>
+
+    <!-- Ejemplo de comportamiento del modelo de caja -->
+    <div class="comportamiento">
+        <p class="caja">Modelo Caja 1:<br>Todo elemento HTML en pantalla se comporta como una caja.</p>
+        <p class="caja">Modelo Caja 2:<br>Todo elemento HTML en pantalla se comporta como una caja.</p>
+        <p class="caja">Modelo Caja 3:<br>Todo elemento HTML en pantalla se comporta como una caja.</p>
+    </div>
+
+    <!-- Recomendaciones de CSS -->
+    <section>
+        <article>
+            <h2>Notas:</h2>
+            <p>1. El navegador interpreta el CSS de arriba hacia abajo. Se aplica el último estilo definido.</p>
+            <p>2. Evita solapar etiquetas al construir tu diseño.</p>
+        </article>
+    </section>
+
+    <!-- Hipervínculos -->
+    <section>
+        <h2>Hipervínculos</h2>
+
+        <div>
+            <h4>Abrir en una nueva pestaña</h4>
+            <p>Agrega <code>target="_blank"</code> para abrir el enlace en una nueva pestaña.</p>
+            <a href="https://www.espol.edu.ec/es" target="_blank">Abrir en nueva pestaña</a>
+        </div>
+
+        <div>
+            <h4>Abrir en la misma pestaña</h4>
+            <p>El valor por defecto es <code>target="_self"</code>, para abrir en la misma pestaña.</p>
+            <a href="https://www.espol.edu.ec/es" target="_self">Abrir en la misma pestaña</a>
+        </div>
+
+        <div>
+            <h4>Abrir en una nueva pestaña (forma segura)</h4>
+            <p>
+                Se recomienda añadir <code>rel="noopener noreferrer"</code> junto con <code>target="_blank"</code> para
+                mayor seguridad.
+            </p>
+            <a href="https://www.espol.edu.ec/es" target="_blank" rel="noopener noreferrer">Abrir de forma segura</a>
+        </div>
+    </section>
+
+    <!-- Botones -->
+    <section>
+        <h2>Botones con estilo</h2>
+        <p>Estilos dinámicos con <code>:hover</code></p>
+        <button>Botón 1</button>
+        <button>Botón 2</button>
+        <button class="btn">Botón 3</button>
+    </section>
+</main>
+
+	
+	<hr>
+	<footer>
+		<p>Derechos reservados © 2025 Diaz Nahim</p>
+		<p>
+			<a href="mailto:fndiaz@espol.edu.ec">Email</a> |
+			<a href="tel:+59399999999">Celular</a>
+		</p>
+
+        <div id="sfcz28pt1ezqpby59ghnq59wlfw3m4asu9c"></div><script type="text/javascript" src="https://counter1.optistats.ovh/private/counter.js?c=z28pt1ezqpby59ghnq59wlfw3m4asu9c&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free counters for websites"><img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=z28pt1ezqpby59ghnq59wlfw3m4asu9c" border="0" title="free counters for websites" alt="free counters for websites"></a></noscript>
+	
+	</footer>
+	<hr>
+</body>
+
+
+</html>

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--archivos vinculados -->
+	<link rel="stylesheet" href="./styles.css"> <!-- Error paginas por rutas -->
+	<link rel="icon" href="../img/calendar-samsung-16.svg" type="image/png" sizes="16x16">
+	<!--etiquetas de seo -->
+	<meta name="author" content="Nahim diaz osorio">
+	<meta name="keywords" content="HTML, CSS, JavaScript">
+	<meta name="description" content="practicas de html css ja">
+	<title>Practica de tablas</title>
+</head>
+
+<body>
+    <nav>
+
+		<a href="../../index.html">Pagina de inicio</a>
+
+		<a href="./practica_Texto.html">Practica de etiqueta de Texto</a>
+
+		<a href="https://fdiazoso.my.canva.site/">Practica de Canva</a>
+
+		<a href="https://sites.google.com/fiec.espol.edu.ec/diazosoriofernando/">Practica de Google Sites</a>
+
+		<a href="./practica_IA.html">Practica de etiqueta de Inteligencia Artificial.
+
+		<a href="./practica_Listas.html">Practica de etiqueta de Listas</a>
+
+		<a href="./practica_Imagenes.html">Practica de etiqueta de Imagenes</a>
+
+		<a href="./practica_Audio.html">Practica de etiqueta de Audio</a>
+
+		<a href="./practica_Video.html">Practica de etiqueta de Video</a>
+
+		<a href="./practica_Tablas.html">Practica de etiqueta de Tablas</a>
+
+		<a href="./practica_CSS.html">Practica de etiqueta de CSS</a>
+
+		<a href="./practica_CopyPaste.html">Practica de etiqueta de Copy Paste</a>
+
+		<a href="./practica_JS.html">Practica de etiqueta de JavaScript</a>
+
+		<a href="./practica_Formulario.html">Practica de etiqueta de Formulario</a>
+
+		<a href="./practica_Formulario2.html">Practica de etiqueta de Formulario2</a>
+
+		<a href="./practica_MenuVertical.html">Practica de etiqueta de Menu Vertical</a>
+
+		<a href="./practica_MenuHorizontal.html">Practica de etiqueta de Menu Horizontal</a>
+
+		<a href="./practica_Crazy.html">Practica de Crazy</a>
+
+    </nav>
+
+    <!-- ========== PRÁCTICA DE TABLAS EN HTML ========== -->
+<h1>Práctica de Tablas</h1>
+<h3>Horario de Clases</h3>
+
+<!-- Inicio de la tabla del horario -->
+<table border="1" style="width: 75%; margin-left: auto; margin-right: auto;" cellpadding="8" cellspacing="1">
+
+    <!-- Encabezado de la tabla -->
+    <thead>
+        <tr style="background-color: #f2f2f2; text-align: center;">
+            <th>Hora</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+    </thead>
+
+    <!-- Cuerpo de la tabla con las asignaturas -->
+    <tbody style="text-align: center;">
+
+        <!-- Primera fila del horario -->
+        <tr>
+            <td>7:00 - 9:00</td>
+            <td colspan="2" style="background-color: #A7D7F9;">Desarrollo Web</td>
+            <td style="background-color: #F9E79F;">IA - Práctica</td>
+            <td style="background-color: #ABEBC6;">Circuito</td>
+            <td rowspan="2" style="background-color: #F5B7B1;">Matemática</td>
+        </tr>
+
+        <!-- Segunda fila del horario -->
+        <tr>
+            <td>9:00 - 11:00</td>
+            <td style="background-color: #F5B7B1;">Matemática</td>
+            <td style="background-color: #F9E79F;">IA - Práctica</td>
+            <td style="background-color: #ABEBC6;">Circuito</td>
+            <td style="background-color: #D7BDE2;">Integrales II</td>
+        </tr>
+
+        <!-- Tercera fila del horario -->
+        <tr>
+            <td>11:00 - 13:00</td>
+            <td style="background-color: #F9E79F;">IA - Práctica</td>
+            <td style="background-color: #ABEBC6;">Circuito</td>
+            <td style="background-color: #D7BDE2;">Integrales II</td>
+            <td style="background-color: #FAD7A0;">Titulación</td>
+            <td style="background-color: #F9E79F;">IA - Práctica</td>
+        </tr>
+
+        <!-- Fila para el almuerzo -->
+        <tr>
+            <td>13:00 - 14:00</td>
+            <td colspan="5" style="background-color: #E5E7E9;">Almuerzo</td>
+        </tr>
+
+        <!-- Quinta fila del horario -->
+        <tr>
+            <td>14:00 - 15:00</td>
+            <td style="background-color: #ABEBC6;">Circuito</td>
+            <td style="background-color: #D7BDE2;">Integrales II</td>
+            <td style="background-color: #FAD7A0;">Titulación</td>
+            <td style="background-color: #ABEBC6;">Circuito</td>
+            <td style="background-color: #F9E79F;">IA - Práctica</td>
+        </tr>
+
+        <!-- Sexta fila del horario -->
+        <tr>
+            <td>15:00 - 16:00</td>
+            <td style="background-color: #D7BDE2;">Integrales II</td>
+            <td style="background-color: #FAD7A0;">Titulación</td>
+            <td style="background-color: #F9E79F;">IA - Práctica</td>
+            <td style="background-color: #F5B7B1;">Matemática</td>
+            <td style="background-color: #D7BDE2;">Integrales II</td>
+        </tr>
+
+        <!-- Séptima fila del horario -->
+        <tr>
+            <td>16:00 - 17:00</td>
+            <td style="background-color: #FAD7A0;">Titulación</td>
+            <td colspan="2" style="background-color: #F9E79F;">IA - Práctica</td>
+            <td colspan="2" style="background-color: #A7D7F9;">Desarrollo Web</td>
+        </tr>
+    </tbody>
+</table>
+<!-- Fin de la tabla -->
+
+	
+	<hr>
+	<footer>
+		<p>Derechos reservados © 2025 Diaz Nahim</p>
+		<p>
+			<a href="mailto:fndiaz@espol.edu.ec">Email</a> |
+			<a href="tel:+59399999999">Celular</a>
+		</p>
+
+        <div id="sfcz28pt1ezqpby59ghnq59wlfw3m4asu9c"></div><script type="text/javascript" src="https://counter1.optistats.ovh/private/counter.js?c=z28pt1ezqpby59ghnq59wlfw3m4asu9c&down=async" async></script><noscript><a href="https://www.freecounterstat.com" title="free counters for websites"><img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=z28pt1ezqpby59ghnq59wlfw3m4asu9c" border="0" title="free counters for websites" alt="free counters for websites"></a></noscript>
+	
+	</footer>
+	<hr>
+</body>
+
+
+</html>
